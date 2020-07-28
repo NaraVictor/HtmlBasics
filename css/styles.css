@@ -1,0 +1,25 @@
+/* body {
+	background-color: olive;
+} */
+
+#victor {
+	color: red;
+	font-size: 100px;
+	background-color: yellow;
+}
+
+table {
+	background-color: forestgreen;
+}
+
+li {
+	margin: 10px;
+	background-color: red;
+	padding: 20px;
+	border: 5px solid black;
+}
+
+.form-control {
+	background-color: gold;
+	border: 5px solid green;
+}

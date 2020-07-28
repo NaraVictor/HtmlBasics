@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Nara Forms</title>
+
+		<link rel="stylesheet" href="css/form.css" />
+	</head>
+	<body>
+		<section>
+			<h1 class="header">Contact Form</h1>
+		</section>
+
+		<section>
+			<article id="form-container">
+				<form action="">
+					<label for="first">First Name</label>
+					<input
+						class="form-input"
+						type="text"
+						id="first"
+						placeholder="your name..."
+					/>
+
+					<label for="last">Last Name</label>
+					<input
+						class="form-input"
+						type="text"
+						id="last"
+						placeholder="your last name.."
+					/>
+
+					<label for="countries">Country</label>
+					<select class="form-input" name="" id="countries">
+						<option value="aus">Australia</option>
+						<option value="gh">Ghana</option>
+						<option value="ng">Nigeria</option>
+						<option value="ky">Kenya</option>
+						<option value="ht">Head and toe</option>
+					</select>
+
+					<label for="subject">Subject</label>
+					<textarea
+						class="form-input"
+						name=""
+						id="subject"
+						cols="30"
+						rows="10"
+					></textarea>
+
+					<input type="submit" class="btn-submit" value="Submit" />
+				</form>
+			</article>
+		</section>
+	</body>
+</html>
